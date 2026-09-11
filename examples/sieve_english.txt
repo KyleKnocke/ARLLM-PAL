@@ -1,0 +1,9 @@
+Write a program that finds all prime numbers up to 100 using the Sieve of Eratosthenes algorithm.
+
+The program should:
+1. Create an array of booleans with size 101 (indices 0 to 100)
+2. Initialize all values as True, except indices 0 and 1 which are False
+3. For each number i from 2 to 10: if the number is marked as prime, mark all its multiples (starting from i*i) as not prime
+4. Collect and print all numbers that remain marked as prime
+
+The output should be a list of prime numbers from 2 to 97.

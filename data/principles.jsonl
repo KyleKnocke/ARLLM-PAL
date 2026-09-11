@@ -1,0 +1,10 @@
+{"id": "P#1", "glyphs": "λx.(∀y∈ℕ)(x+y ∈ ℕ)", "description": "Addition closure over natural numbers"}
+{"id": "P#2", "glyphs": "λf.∀x. f(x) → ¬f(¬x)", "description": "Double negation elimination in predicates"}
+{"id": "P#3", "glyphs": "∀a,b. (a×₂b = b×₂a)", "description": "Commutativity of binary multiplication"}
+{"id": "P#4", "glyphs": "λx. x ∈ V ⇒ x ∈ U", "description": "Subset inclusion via membership"}
+{"id": "P#5", "glyphs": "∀n∈ℕ. n+₁₀ = n+10", "description": "Decimal increment operator semantics"}
+{"id": "P#6", "glyphs": "λf,g. (f∘g)(x) = f(g(x))", "description": "Function composition definition"}
+{"id": "P#7", "glyphs": "∀x. ¬(x ∈ ∅)", "description": "Empty set membership axiom"}
+{"id": "P#8", "glyphs": "λx. x → ⊥ ⇒ ¬x", "description": "Contrapositive implication"}
+{"id": "P#9", "glyphs": "∀a,b,c. a×₂(b+c₁₀) = (a×₂b)+(a×₂c)", "description": "Distributivity over addition"}
+{"id": "P#10", "glyphs": "λx. x ∈ V ∧ y ∈ W ⇒ (x,y) ∈ V×W", "description": "Cartesian product introduction"}
